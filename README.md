@@ -45,28 +45,25 @@ My initial hypothesis is that drivers of quality will likely be features that af
 # Data Dictionary
 | Feature | Definition |
 | :- | :- |
-| Churn | True or False, Churned customers have left the company |
-| Multiple Lines | True or False, customer has phone service with multiple lines or not |
-| Dependents | True or False, customer has dependents or not |
-| Partner | True or False, customer has a partner or not |
-| Senior Citizen | True or False, customer is a senior citizen or not |
-| Internet Service | True or False, customer has internet service or not |
-| Tenure | An integer that shows the number of months a customer has been with the company |
+| quality | A numeric score based on reviews of the wine by consumers |
+| fixed acidity | wip |
+| volatile acidity | wip |
+| citric acid | wip |
+| residual sugar | wip |
+| chlorides | wip |
+| free sulfur dioxide | wip |
+| density | wip |
+| pH | wip |
+| sulphates | wip |
+| alcohol | wip |
 
 # Steps to Reproduce
 1. Clone this repo
-2. Acquire the data from SQL database
+2. Acquire the data from csv saved in repo
 3. Place data in file containing the cloned repo
 4. Run notebook
 
 # Takeaways and Conclusions
-- Churn occurs in 27% of customers
-- Customers who do not have a partner have a 13% higher chance of churning
-- Customer who do not have dependents have a 15% higher chance of churning
-- Customers who are senior citizens have a 20% higher chance of churning
-- Customers who do not have internet service have a 25% higher chance of churning
-- Having multiple lines with phone service is a driver of churn with weak influence
-- Model performs 6% higher than baseline predictions.
-
+- 
 # Recommendations
-- Possible limited time discounts to customers who are likely to churn within the featured demographics.
+- 
