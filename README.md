@@ -10,28 +10,28 @@ Wine Company wants to investigate drivers of wine quality and achieve actionable
 - This information could be used to reach a better understanding of why wines are rated high or low.
 
 # Initial Thoughts
-My initial hypothesis is that drivers of churn will likely be features that relate to the personal life of the customer, such as having a family/partner, and being a senior citizen. I added two more features relating to having multiple lines with phone service and having internet service with Telco.
+My initial hypothesis is that drivers of quality will likely be features that affect a wine's flavor, such as ph, alcohol percentage, and different acidities.
 
 # Plan
-- Acquire data from SQL database
+- Acquire data from Kaggle
 
 - Prepare data by encoding strings, renaming columns, dropping unnecessary columns
 
 - Explore data in search of drivers of upsets and answer the following:
 
->Is tenure significantly different in customers who have churned than customers who have not churned?
+>Does acidity share a relationship with quality?
 
->Does a customer having a partner affectchurn?
+>Does residual sugar affect quality?
 
->Does a customer having dependents play a role in churn?
+>Does sulfur dioxide affect quality?
 
->Is a customer's senior citizen status related to churn?
+>Does pH affect quality?
 
->Does a customer having internet service affect churn?
+>Does amount of sulphates affect quality?
 
->Does a customer having multiple lines with phone service affect churn?
+>Does alcohol content affect quality?
 
-- Develop a model to predict if a customer will churn
+- Develop a model to predict if a win will be of quality 3-5 or 6-8
 > Use drivers identified in explore to build predictive models
 
 > Evaluation of models on train and validate data
