@@ -5,8 +5,10 @@ Wine Company wants to investigate drivers of wine quality and achieve actionable
 
 # Project Goal
 - Discover drivers of wine quality in WineQT dataset.
-- Use drivers to develop a machine learning model to classify wine as quality 3-5 or 6-8.
+- Use drivers to develop a machine learning model to classify wine as a viable product or not a viable product.
 - A quality is the rating given by reviews of the wine.
+- For this project we will define a viable product as a wine with a quality of 6 or higher.
+- Wines with quality 5 or below will not be viable products.
 - This information could be used to reach a better understanding of why wines are rated high or low.
 
 # Initial Thoughts
