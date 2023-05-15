@@ -191,6 +191,8 @@ def get_ind_ttest_residsugar(train):
 
 # In[18]:
 
+def get_free_sulf_dio_boxplot(train):
+    sns.boxplot(data=train, x=train['quality'],y=train['free sulfur dioxide'])
 
 def get_ind_ttest_free_sulf_dio(train):
 
