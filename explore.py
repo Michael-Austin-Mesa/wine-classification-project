@@ -14,6 +14,8 @@ from scipy import stats
 
 
 def get_countplot(train):
+    sns.set_style("darkgrid")
+    sns.set_palette("pastel")
     sns.countplot(x=train.quality)
 
 
@@ -21,6 +23,8 @@ def get_countplot(train):
 
 
 def get_countplot_viable(train):
+    sns.set_style("darkgrid")
+    sns.set_palette("pastel")
     sns.countplot(x=train.is_viable)
 
 
@@ -28,6 +32,8 @@ def get_countplot_viable(train):
 
 
 def get_volatile_boxplot(train):
+    sns.set_style("darkgrid")
+    sns.set_palette("pastel")
     sns.boxplot(data=train, x=train['quality'],y=train['volatile acidity'])
 
 
@@ -49,6 +55,8 @@ def get_ttest_volatile(train):
 
 
 def get_citric_boxplot(train):
+    sns.set_style("darkgrid")
+    sns.set_palette("pastel")
     sns.boxplot(data=train, x=train['quality'],y=train['citric acid'])
 
 
@@ -70,6 +78,8 @@ def get_ind_ttest_citric_acid(train):
 
 
 def get_fixed_acid_boxplot(train):
+    sns.set_style("darkgrid")
+    sns.set_palette("pastel")
     sns.boxplot(data=train, x=train['quality'],y=train['fixed acidity'])
 
 
@@ -91,6 +101,8 @@ def get_ind_ttest_fixed_acid(train):
 
 
 def get_pH_boxplot(train):
+    sns.set_style("darkgrid")
+    sns.set_palette("pastel")
     sns.boxplot(data=train, x=train['quality'],y=train['pH'])
 
 
@@ -112,6 +124,8 @@ def get_ind_ttest_ph(train):
 
 
 def get_sulphates_boxplot(train):
+    sns.set_style("darkgrid")
+    sns.set_palette("pastel")
     sns.boxplot(data=train, x=train['quality'],y=train['sulphates'])
 
 
@@ -133,6 +147,8 @@ def get_ind_ttest_sulphates(train):
 
 
 def get_alcohol_boxplot(train):
+    sns.set_style("darkgrid")
+    sns.set_palette("pastel")
     sns.boxplot(data=train, x=train['quality'],y=train['alcohol'])
 
 
@@ -154,6 +170,8 @@ def get_ind_ttest_alcohol(train):
 
 
 def get_residual_sugar_boxplot(train):
+    sns.set_style("darkgrid")
+    sns.set_palette("pastel")
     sns.boxplot(data=train, x=train['quality'],y=train['residual sugar'])
 
 
