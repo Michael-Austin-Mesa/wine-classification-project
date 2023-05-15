@@ -48,16 +48,16 @@ My initial hypothesis is that drivers of quality will likely be features that af
 | Feature | Definition |
 | :- | :- |
 | quality | A numeric score based on reviews of the wine by consumers |
-| fixed acidity | wip |
-| volatile acidity | wip |
-| citric acid | wip |
-| residual sugar | wip |
-| chlorides | wip |
-| free sulfur dioxide | wip |
-| density | wip |
-| pH | wip |
-| sulphates | wip |
-| alcohol | wip |
+| fixed acidity | set of low volatility organic acids such as malic, lactic, tartaric or citric acids. |
+| volatile acidity | a measure of the wine's volatile (or gaseous) acids. The primary volatile acid in wine is acetic acid, which is also the primary acid associated with the smell and taste of vinegar. |
+| citric acid | a measure of acid that is often added to wines to increase acidity, complement a specific flavor or prevent ferric hazes. |
+| residual sugar | sweetness in wine measured in grams per liter (g/L) of sugar. |
+| chlorides | a measure of salts of mineral and organic acids that affects the saltiness of flavor in wine. |
+| free sulfur dioxide | a measure of sulphur dioxide ions that are not chemically bound to other chemicals in solution and thus are free to react with substances |
+| density | mass of a unit volume of a material substance (in this case, the wine) |
+| pH | a figure expressing the acidity or alkalinity of a solution (in this case, the wine) |
+| sulphites | continuous variable, measured in ppm (parts per million), naturally occurring compounds found in all wines; they act as a preservative by inhibiting microbial growth.  |
+| alcohol | measurement of alcohol content in wine |
 
 # Steps to Reproduce
 1. Clone this repo
