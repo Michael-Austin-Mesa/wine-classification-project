@@ -86,3 +86,13 @@ def get_knn(train_x, validate_x, train_y, validate_y):
     print(f"Accuracy of KNN on validate is {knn.score(validate_x, validate_y)}")
 
 
+def get_rf_test(train_x, test_x, train_y, test_y):
+
+    '''get rf accuracy on train and test'''
+    #create classifier and fit
+    rf = RandomForestClassifier(max_depth=4, random_state=123)
+    rf = rf.fit(train_x, train_y)
+
+    print(f"Accuracy of Random Forest on train data is {rf.score(train_x, train_y)}")
+    print(f"Accuracy of Random Forest on test data is {rf.score(test_x, test_y)}")
+
