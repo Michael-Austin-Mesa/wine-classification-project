@@ -66,6 +66,6 @@ My initial hypothesis is that drivers of quality will likely be features that af
 4. Run notebook
 
 # Takeaways and Conclusions
-- 
+- Drivers of quality were found to be 
 # Recommendations
 - 
